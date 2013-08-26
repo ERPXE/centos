@@ -1,0 +1,8 @@
+LABEL CENTOS6X86NFS
+MENU LABEL ^CentOS 6 x86 - NFS
+KERNEL er/plugins/centos/6/i386/vmlinuz
+INITRD er/plugins/centos/6/i386/initrd.img
+APPEND ramdisk_size=100000 ip=dhcp METHOD=nfs:10.0.0.1:/tftpboot/er/shares/centos/6/i386/
+TEXT HELP
+                 Install CentOS x86.
+ENDTEXT

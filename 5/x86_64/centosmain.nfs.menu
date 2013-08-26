@@ -1,0 +1,8 @@
+LABEL CENTOS5X64NFS
+MENU LABEL ^CentOS 5 x64 - NFS
+KERNEL er/plugins/centos/5/x86_64/vmlinuz
+INITRD er/plugins/centos/5/x86_64/initrd.img
+APPEND ramdisk_size=100000 ip=dhcp METHOD=nfs:10.0.0.1:/tftpboot/er/shares/centos/5/x86_64/
+TEXT HELP
+                 Install CentOS x64.
+ENDTEXT

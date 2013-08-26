@@ -1,0 +1,8 @@
+LABEL CENTOS6X86OL
+MENU LABEL ^CentOS 6 x86 - Internet Installation
+KERNEL er/plugins/centos/6/i386/vmlinuz
+INITRD er/plugins/centos/6/i386/initrd.img
+APPEND ramdisk_size=100000 ip=dhcp METHOD=http://mirror.isoc.org.il/pub/centos/6/os/i386/
+TEXT HELP
+                 Install CentOS x86.
+ENDTEXT

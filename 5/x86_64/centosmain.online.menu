@@ -1,0 +1,8 @@
+LABEL CENTOS5X64OL
+MENU LABEL ^CentOS 5 x64 - Internet Installation
+KERNEL er/plugins/centos/5/x86_64/vmlinuz
+INITRD er/plugins/centos/5/x86_64/initrd.img
+APPEND ramdisk_size=100000 ip=dhcp METHOD=http://mirror.isoc.org.il/pub/centos/5/os/x86_64/
+TEXT HELP
+                 Install CentOS x64.
+ENDTEXT
