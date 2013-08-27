@@ -28,15 +28,15 @@ i386
 x86_64
 
 ./6/i386:
-centosmain.http.menu
-centosmain.nfs.menu
-centosmain.online.menu
+centosmain32.http.menu
+centosmain32.nfs.menu
+centosmain32.online.menu
 initrd.img
 vmlinuz
 
 ./6/x86_64:
-centosmain.http.menu
-centosmain.nfs.menu
-centosmain.online.menu
+centosmain64.http.menu
+centosmain64.nfs.menu
+centosmain64.online.menu
 initrd.img
 vmlinuz
